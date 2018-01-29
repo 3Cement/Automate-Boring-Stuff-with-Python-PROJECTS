@@ -39,5 +39,5 @@ def encryptingPDFs(password):
 	end_time = time.time()
 	print("\n--- %s seconds ---" % round((end_time - start_time),2))
 
-encryptingPDFs('kiki')
+encryptingPDFs('somePassword')
 
