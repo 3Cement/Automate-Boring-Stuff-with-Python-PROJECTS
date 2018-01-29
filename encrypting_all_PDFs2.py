@@ -6,8 +6,7 @@ import os, PyPDF2, time, logging
 
 def encryptingPDFs(password):
 	start_time = time.time()
-	logging.getLogger().setLevel(logging.INFO)
-	#parser_logger.setLevel(logging.INFO)
+	logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
 	for foldername, subfolders, filenames in os.walk('.'):
 		print('The current folder is ' + foldername)
