@@ -78,6 +78,4 @@ def decryptingPDFs(password):
 	print("\n--- %s seconds ---" % round((end_time - start_time),2))
 
 #encryptingPDFs('kiki')
-
-decryptingPDFs('kiki')
-
+#decryptingPDFs('kiki')
